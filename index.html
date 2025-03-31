@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    .hamburger-menu {
+        position: relative;
+    }
+
+    #menu-toggle {
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: white;
+        border: 1px solid #ccc;
+        display: none;
+    }
+
+    .menu li {
+        padding: 10px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu.hidden {
+        display: none;
+    }
+
+    .menu.visible {
+        display: block;
+    }
+</style>
+
 <body>
-    
+    <nav>
+        <div class="hamburger-menu">
+            <button id="menu-toggle" aria-label="Toggle menu">
+                ☰
+            </button>
+            <ul id="menu" class="menu hidden">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+
+    </main>
 </body>
+
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('visible');
+    });
+</script>
+
 </html>
