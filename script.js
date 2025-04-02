@@ -1,7 +1,7 @@
-const menuToggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
 
-    menuToggle.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-        menu.classList.toggle('visible');
-    });
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}

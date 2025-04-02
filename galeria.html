@@ -14,19 +14,20 @@
 
 <body>
     <nav>
-        <div class="hamburger-menu" style="width: 10%; /* background-color: red; */">
-            <button id="menu-toggle" aria-label="Toggle menu">
-                <span>☰</span> 
-            </button>
-            <ul id="menu" class="menu hidden">
-                <li style="border-top-left-radius: 5px; border-top-right-radius: 5px;"><a href="index.html">Főoldal</a></li>
-                <li><a href="rolunk.html">Rólunk</a></li>
-                <li><a href="kozkoz.html">Közérdekű közlemények</a></li>
-                <li><a href="galeria.html">Galéria</a></li>
-                <li><a href="forma.html">Formanyomtatványok</a></li>
-                <li style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;"><a href="kapcsolat.html">Kapcsolat</a></li>
-            </ul>
-        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="index.html">Főoldal</a>
+              <a href="rolunk.html">Rólunk</a>
+              <a href="kozkoz.html">Közérdekű közlemények</a>
+              <a href="galeria.html">Galéria</a>
+              <a href="forma.html">Formanyomtatványok</a>
+              <a href="kapcsolat.html">Kapcsolat</a>
+            </div>
+          </div>
+          
+          <span style="font-size:5vw;cursor:pointer" onclick="openNav()">&#9776;</span>
+          
 
         <div class="kozep" style="width: 70%;">
             <p style="padding-right: 10%;">Üdvözlünk</p>
