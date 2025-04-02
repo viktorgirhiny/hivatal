@@ -1,0 +1,169 @@
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+main
+{
+    background-color: #f7f4ef;
+    width: 100%;
+}
+
+main .hirek
+{
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+main .hirek .card
+{
+    padding: 1vw
+}
+
+main .hirek .card:hover
+{
+
+    color: var(text-color);
+    box-shadow: 0px 0px 10px rgba(0, 3, 12, 0.2);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+main .hirek .card:hover .cim {
+    text-decoration: underline;
+}
+
+main .hirek .left
+{
+    width: 50%;
+}
+
+main .hirek .right
+{
+    width: 50%;
+}
+
+main .hirek .left .card
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main .hirek .left .card .row1
+{
+    display: flex;
+    gap: 5%;
+}
+
+main .hirek .left .card .row1 .cimke
+{
+    margin-left: 8%;
+    background-color: #5764A6;
+    color: var(text-color);
+    border-radius: 15px;
+    padding: 5px;
+    width:  7vw;
+    height: 2vw;
+}
+
+main .hirek .left .card .row1 .cimke p
+{
+    position: relative;
+    top: -1vw;
+    left: 0.35vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+main .hirek .left .card .row1 .datum p
+{
+    position: relative;
+    top: -0.6vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+main .hirek .left .card .cim
+{
+    margin-left: 6%;
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin-top: -1.5vw;
+    margin-bottom: -1.5vw;
+}
+
+main .hirek .left .card .leiras
+{
+    margin-left: 6%;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main .hirek .right .card
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main .hirek .right .card .row1
+{
+    display: flex;
+    gap: 5%;
+}
+
+main .hirek .right .card .row1 .cimke
+{
+    margin-left: 8%;
+    background-color: #5764A6;
+    color: var(text-color);
+    border-radius: 15px;
+    padding: 5px;
+    width:  7vw;
+    height: 2vw;
+}
+
+main .hirek .right .card .row1 .cimke p
+{
+    position: relative;
+    top: -1vw;
+    left: 0.35vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+main .hirek .right .card .row1 .datum p
+{
+    position: relative;
+    top: -0.6vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+main .hirek .right .card .cim
+{
+    margin-left: 6%;
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin-top: -1.5vw;
+    margin-bottom: -1.5vw;
+}
+
+main .hirek .right .card .leiras
+{
+    margin-left: 6%;
+    font-size: 1.2vw;
+}
