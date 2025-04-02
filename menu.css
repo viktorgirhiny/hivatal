@@ -21,7 +21,7 @@
         background-color: var(--background-color);
         border: lime solid 3px;
         border-radius: 10px;
-        max-height: 18vh;
+        max-height: 150px;
     }
 
     .hamburger-menu {
