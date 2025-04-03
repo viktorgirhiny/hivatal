@@ -167,3 +167,41 @@ main .hirek .right .card .leiras
     margin-left: 6%;
     font-size: 1.2vw;
 }
+
+main .gomb-div
+{
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+
+.gomb {
+  background-color: #0a6bff;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inherit;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  margin-left: 39vw;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.gomb:hover {
+  background-color: #065dd8;
+  transform: translateY(-5px);
+}

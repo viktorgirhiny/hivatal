@@ -21,6 +21,20 @@
         max-height: 150px;
     }
 
+    nav span img
+    {
+        position: relative;
+        left: 2vw;
+        top: 0.5vw;
+        width: 8vw;
+        height: auto;
+
+        &:hover
+        {
+            transform: translateY(-5px);
+        }
+    }
+
     nav .kozep {
         display: flex;
         margin: auto auto;
