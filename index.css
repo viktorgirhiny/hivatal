@@ -4,7 +4,7 @@
     max-width: 80%;
     margin: auto auto;
     margin-top: 1vw;
-    border: 0.3vw solid #666;
+    border: 0.2vw solid #666;
     border-radius: 10px;
     padding: 0.4vw;
     transition: transform 0.2s ease-out; 
@@ -21,4 +21,36 @@
     width: auto;
     height: 15vw;
     border-radius: 5px;
+}
+
+.content .latvanyossagok
+{
+    display: grid;
+}
+
+.content .latvanyossag
+{
+    display: flex;
+    width: 80%;
+    margin: auto auto;
+    margin-top: 1vw;
+    border: 0.2vw solid #666;
+    border-radius: 10px;
+    padding: 0.4vw;
+    transition: transform 0.2s ease-out; 
+    color: var(--text-color);
+    gap: 1.5vw;
+    font-size: 1.8vw;
+
+    &:hover
+    {
+        transform: scale(1.05);
+    }
+}
+
+.latvanyossag img
+{
+    border-radius: 10px;
+    width: 25vw;
+    height: auto;
 }
