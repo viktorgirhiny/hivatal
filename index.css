@@ -1,7 +1,13 @@
+.content
+{
+    max-height: 100vh;
+}
+
 .content .elso
 {
     display: flex;
     max-width: 80%;
+    height: auto;
     margin: auto auto;
     margin-top: 1vw;
     border: 0.2vw solid #666;
@@ -9,6 +15,7 @@
     padding: 0.4vw;
     transition: transform 0.2s ease-out; 
     color: var(--text-color);
+    font-size: 1.2vw;
 
     &:hover
     {
@@ -41,10 +48,22 @@
     color: var(--text-color);
     gap: 1.5vw;
     font-size: 1.8vw;
+    cursor: pointer;
 
     &:hover
     {
         transform: scale(1.05);
+    }
+}
+
+.latvanyossag a
+{
+    text-decoration: none;
+    color: var(--text-color);
+
+    &:hover
+    {
+        color: var(--text-color);
     }
 }
 
@@ -53,4 +72,19 @@
     border-radius: 10px;
     width: 25vw;
     height: auto;
+}
+
+.content .latvanyossag .felso
+{
+    display: flex;
+
+    & h3
+    {
+        padding-left: 10vw;
+    }
+}
+
+.content .latvanyossag:hover .felso h3
+{
+    text-decoration: underline;
 }
